@@ -24,7 +24,7 @@
 \definecolor{pblue}{HTML}{0395DE}
 %header
 \begin{document}
-\header{}{运维工程师}
+\header{}{数据分析}
       { 彭峰 } 
 % 注意简历的下载位置更改和header的更改      
  %对应cls中的  node的三个   
@@ -39,13 +39,12 @@
     ~
     ~
   \section{TEL}
-    17091314725
+%    17091314725
     18700833902
     ~
   \section{Email}
     \href{mailto:sig5253b@gmail.com}{\textbf{sig5253b@}\\gmail.com}
-    \href{mailto:jobs@fengidea.com}{\textbf{jobs@}\\fengidea.com}
-    ~
+ %   \href{mailto:jobs@fengidea.com}{\textbf{jobs@}\\fengidea.com}
 %  \section{在线简历}
 %    \href{http://devops.mxuan.me}{devops.mxuan.me}
 %    \href{https://bitbucket.org/neoben}{bitbucket.org/neoben}
@@ -54,44 +53,49 @@
   \section{Programming}
   ~
     \includegraphics[scale=0.25]{img/programming3.png}
-    ~
-  \section{Personal Skills}
   ~
+  \section{Languages}
+    \textbf{English}\includegraphics[scale=0.40]{img/3stars.png}
+    \textbf{CET6} \hspace{7mm}  \textbf{pass}
+    \textbf{CET4} \hspace{7mm}  \textbf{pass}
+ \section{OS Preference}
+    \textbf{Debian}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{CentOS}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Windows}\includegraphics[scale=0.40]{img/3stars.png}
+  \section{Personal Skills}
   \textbf{TCP/IP}\includegraphics[scale=0.40]{img/4stars.png}
   \textbf{Nginx}\includegraphics[scale=0.40]{img/4stars.png}
   \textbf{Docker}\includegraphics[scale=0.40]{img/3stars.png}
   \textbf{KVM}\includegraphics[scale=0.40]{img/3stars.png}
-  \textbf{LVS}\includegraphics[scale=0.40]{img/2stars.png}
+%  \textbf{LVS}\includegraphics[scale=0.40]{img/2stars.png}
   \textbf{AWS}\includegraphics[scale=0.40]{img/2stars.png}
-  \textbf{HAProxy}\includegraphics[scale=0.40]{img/2stars.png}
+%  \textbf{HAProxy}\includegraphics[scale=0.40]{img/2stars.png}
   \textbf{MongoDB}\includegraphics[scale=0.40]{img/2stars.png}
   \textbf{Redis}\includegraphics[scale=0.40]{img/2stars.png}
   \textbf{CI/CD}\includegraphics[scale=0.40]{img/2stars.png}
-  \textbf{Zabbix}\includegraphics[scale=0.40]{img/1stars.png}
-  \textbf{Puppet}\includegraphics[scale=0.40]{img/1stars.png}
-  \textbf{Consul}\includegraphics[scale=0.40]{img/1stars.png}
-%  \textbf{Kubernetes}\includegraphics[scale=0.40]{img/1stars.png}
-  \textbf{K8s}\includegraphics[scale=0.40]{img/1stars.png}
   ~
   ~
 \end{aside}
+
+\section{基本情况}
+数月考虑，转型数据分析。熟悉SQL常用语句，Linux、Python、shell使用，对数字与颜色敏感。望偏向业务层，每日浏览TMT商业新闻、行研。长期混迹互联网，了解常见运营指标，了解近年新形态金融。\\
+2016年毕业于西安电子科技大学，211和优势学科创新平台，未有工作经验。接受实习生标准薪资。原偏向运维开发，监控报警、日志记录等。
+
 
 \section{项目介绍}
 \begin{entrylist}
   \entry
     {12/16 - 02/17}
     {内网私有云管理系统}
-    {Virtualization}
-    { 前端使用Flask基础框架，虚拟化方式使用KVM/QEMU。libvirt API 作为中间层，定义多类xml配置模板，jinja2生成配置文件。
-内部模块包括基础配置管理，实例管理，服务器管理。完成数据库的表设计，ORM进行数据库操作，后期实现了简易的用户权限管理。
-IP分配通过Zerotier添加虚拟网卡,绑定域名至Cloudflare。基础架构的存储方面，使用bcache的filesystem方式。部分配置文件定期备份到s3上。
+    {Python}
+    { 完成数据库的表设计，ORM进行数据库操作，后期实现了简易的用户权限管理。前端Flask基础框架，虚拟化使用KVM/QEMU。内部模块包括基础配置管理，实例管理，服务器管理。IP分配通过Zerotier添加虚拟网卡,绑定域名至Cloudflare。基础存储方面，使用bcache方式。部分配置文件定期备份到s3上。
     \\}
 
 
   \entry
     {02/15 - 08/15 }
     {虚拟化技术与平台}
-    {Virtualization}
+    {Shell}
     {基于openSUSE 13.2的KVM。逻辑上简单参照Openstack，在硬盘上划分分区作为块分区的存储池，制作自用镜像。构建内网桥接环境和外网NAT环境。进行vmware的P2V和KVM的V2V。补充virt-manager中没有图形化实现的部分功能，编写CLI，在virsh和xml配置的基础上制定特定的虚拟机资源类型模板等，从而快速根据自身需要创建和使用干净的测试和学习环境。
     \\}   
 
@@ -99,8 +103,7 @@ IP分配通过Zerotier添加虚拟网卡,绑定域名至Cloudflare。基础架�
     {12/15 - 02/16}
     {嵌入式显微成像系统}
     {Django}
-    {在树莓派的基础上搭建的系统平台，在嵌入式系统下对光学薄膜进行数字显微成像和基本的图像处理，并可以远程显示和控制。内核进行系统配置实现集成化。硬件部分包括了光学衔接系统、显微采集硬件模块、光源设计等；Web界面实现图片显示与管理、基本图像处理等功能。\\
-    整体使用B/S架构，Server端使用REST API，并通过docker进行部署。
+    {在树莓派的基础上搭建的系统平台，在嵌入式系统下对光学薄膜进行数字显微成像和基本图像处理，可远程显示和控制。内核系统配置实现集成化。硬件部分包括光学衔接系统、显微采集硬件模块、光源设计等；Web界面实现图片显示与管理、基本图像处理等功能。
    \\ }%考虑自己如何自己进行扩展,以及细节部分
 
    \entry
@@ -112,11 +115,12 @@ IP分配通过Zerotier添加虚拟网卡,绑定域名至Cloudflare。基础架�
     个人负责任务协调，硬件设计和组装，以及Web界面。\\
    }
 
-  \entry
-    {03/14 - 07/14 }
-    {文件存储与共享}
-    {Storage}
-    {提供家庭一站式文件存储与共享功能，系统基于openSUSE，局域网内利用KVM虚拟化提供SAMBA、NFS共享、FTP、DLNA、LEMP基础上搭建owncloud个人云等服务。\\}%注意要和用户权限控制联系 还有swift相关   
+%  \entry
+%    {03/14 - 07/14 }
+%    {文件存储与共享}
+%    {Storage}
+%    {提供家庭一站式文件存储与共享功能，系统基于openSUSE，局域网内利用KVM虚拟化提供SAMBA、NFS共享、FTP、DLNA、LEMP基础上搭建owncloud个人云等服务。\\}%注意要和用户权限控制联系 还有swift相关   
+
 \end{entrylist}
 
 \newpage
@@ -132,10 +136,12 @@ IP分配通过Zerotier添加虚拟网卡,绑定域名至Cloudflare。基础架�
     {校科协信息化实验室管理员}
     {Service \& Support}
     {\emph{服务器搭建与管理}
-    适逢实验室添加新设备，负责计算机和交换机上报选型，为校科协多个部门提供技术支持和服务。包括：使用WindowsServer2008 R2实现路由和远程桌面服务，提供局域网内公共FTP和部门FTP文件共享，提供常见软件的安装和使用，部分Adobe系列软件培训，解决基本的网络问题。较好的实现了第一年实验室的技术支撑。  \\     
+    适逢实验室添加新设备，负责计算机和交换机上报选型，为校科协多个部门提供技术支持和服务。包括：使用WindowsServer2008 R2实现路由和远程桌面服务，提供局域网内公共FTP和部门FTP文件共享，提供常见软件的安装和使用，部分Adobe系列软件培训，解决基本的网络问题。较好实现第一年实验室的技术支撑。  \\     
     }
     
 \end{entrylist}
+
+
 
 
 %\newpage
@@ -144,21 +150,12 @@ IP分配通过Zerotier添加虚拟网卡,绑定域名至Cloudflare。基础架�
 \begin{aside}
 ~
 ~ 
- \section{OS Preference}
-  ~
-    \textbf{Debian}\includegraphics[scale=0.40]{img/5stars.png}
-    \textbf{CentOS}\includegraphics[scale=0.40]{img/4stars.png}
-    \textbf{Windows}\includegraphics[scale=0.40]{img/3stars.png}
-    \textbf{openSUSE}\includegraphics[scale=0.40]{img/3stars.png}
-  \section{Languages}
-    \textbf{English}\includegraphics[scale=0.40]{img/3stars.png}
-    \textbf{CET6} \hspace{7mm}  \textbf{pass}
-    \textbf{CET4} \hspace{7mm}  \textbf{pass}
+%    \textbf{openSUSE}\includegraphics[scale=0.40]{img/3stars.png}
   ~    
-  \section{Self-Scoring}
-    ~
-    \includegraphics[scale=0.32]{img/personal.png}
-    ~
+%  \section{Self-Scoring}
+%    ~
+%    \includegraphics[scale=0.32]{img/personal.png}
+%    ~
   \section{Other Links}
     ~
     {\href{https://blog.mxuan.me}{**NewBlog}}
@@ -179,27 +176,8 @@ IP分配通过Zerotier添加虚拟网卡,绑定域名至Cloudflare。基础架�
 
 相关课程与内容：数字电路，微机原理与系统，电子元器件，光纤通信与应用，计算机图形学。\\
 
-
-\section{其他信息}
-%在这几年的学习中，我关注知识之间的联系性，注重知识的迁移。我更习惯先了解全局，在做出自己的决定。\\
-%{简历下载链接:\href{http://fengidea.qiniudn.com/系统运维工程师-西电-58-彭峰.pdf}{系统运维工程师-西电-58-彭峰.pdf}}\\
-%{图书馆部分阅读历史\_1(2015.07-2014.12):\href{http://fengidea.qiniudn.com/feng-read-xidian-1.pdf}{图书馆阅读历史-1}}\\
-%{图书馆部分阅读历史\_2(2014.09-2012.10):\href{http://fengidea.qiniudn.com/feng-read-xidian-2.pdf}{图书馆阅读历史-2}}\\
-%{部分购买书籍(截至2014.10):\href{http://fengidea.qiniudn.com/feng-read-xidian-3.pdf}{系统运维工程师-西电-58-彭峰.pdf}}
-上海周边有房，工作意向强烈。Linux使用6年+。2016年网易邮箱部春招运维方向Special。二战考研失败。相比于侧重语言的细节，我更关注知识之间的联系、维系和概念迁移，全局意识较强。\\
-下面是一张知识点框架图：\\
-\includegraphics[scale=0.336]{img/arch.png}
-\\
-下面是一张自己整体知识的简单的知识点联系图:\\
-\includegraphics[scale=0.60]{img/devopsgraph.png}
-%Other Notes：部分借阅历史遗失(2014/09-2014/12)；图片拍摄日期截至2014/12；旧博客弃用，开设时间请Whois；Github仅作为个人网盘和同步盘使用；Self-Scoring\hspace{1mm}基于MBTI(R)。\\
-%整体上学习方向比较偏向自动化运维和应用运维。如果您觉得我能很好的匹配到职位需求的话，还请不吝于联系我！此外，从性格上说我能接受各式的建议和反馈，其有助于自我改进和Review。\\
-
-\emph{
-最后，非常感谢您花时间来阅读这份简历！\\}
-~
 \begin{flushleft}
-\emph{2/25/2017}
+\emph{4/5/2017}
 \end{flushleft}
 \begin{flushright}
 \emph{彭峰}

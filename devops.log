@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/W32TeX) (preloaded format=xelatex 2016.5.29)  25 FEB 2017 00:32
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/W32TeX) (preloaded format=xelatex 2016.5.29)  6 APR 2017 09:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1940,106 +1940,72 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: img/programming3.png Graphic file (type QTm)
 
 <use  "img/programming3.png" >
+File: img/3stars.png Graphic file (type QTm)
+ <use  "img/3stars.png" >
+File: img/5stars.png Graphic file (type QTm)
+
+<use  "img/5stars.png" >
 File: img/4stars.png Graphic file (type QTm)
  <use  "img/4stars.png" >
+File: img/3stars.png Graphic file (type QTm)
+ <use  "img/3stars.png" >
 File: img/4stars.png Graphic file (type QTm)
 
 <use  "img/4stars.png" >
+File: img/4stars.png Graphic file (type QTm)
+ <use  "img/4stars.png" >
 File: img/3stars.png Graphic file (type QTm)
  <use  "img/3stars.png" >
 File: img/3stars.png Graphic file (type QTm)
- <use  "img/3stars.png" >
+
+<use  "img/3stars.png" >
+File: img/2stars.png Graphic file (type QTm)
+ <use  "img/2stars.png" >
+File: img/2stars.png Graphic file (type QTm)
+ <use  "img/2stars.png" >
 File: img/2stars.png Graphic file (type QTm)
 
 <use  "img/2stars.png" >
 File: img/2stars.png Graphic file (type QTm)
  <use  "img/2stars.png" >
-File: img/2stars.png Graphic file (type QTm)
- <use  "img/2stars.png" >
-File: img/2stars.png Graphic file (type QTm)
-
-<use  "img/2stars.png" >
-File: img/2stars.png Graphic file (type QTm)
- <use  "img/2stars.png" >
-File: img/2stars.png Graphic file (type QTm)
- <use  "img/2stars.png" >
-File: img/1stars.png Graphic file (type QTm)
-
-<use  "img/1stars.png" >
-File: img/1stars.png Graphic file (type QTm)
- <use  "img/1stars.png" >
-File: img/1stars.png Graphic file (type QTm)
- <use  "img/1stars.png" >
-File: img/1stars.png Graphic file (type QTm)
-
-<use  "img/1stars.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 80--121
+Underfull \hbox (badness 10000) in paragraph at lines 86--125
 
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 129--139
-
- []
-
-File: img/5stars.png Graphic file (type QTm)
-<use  "img/5stars.png" >
-File: img/4stars.png Graphic file (type QTm)
- <use  "img/4stars.png" >
-File: img/3stars.png Graphic file (type QTm)
- <use  "img/3stars.png" >
-File: img/3stars.png Graphic file (type QTm)
-
-<use  "img/3stars.png" >
-Overfull \hbox (0.4232pt too wide) in paragraph at lines 152--152
- [][]\EU1/texgyreheros-bold.otf(0)/m/n/10.53937 openSUSE[][]
- []
-
-File: img/3stars.png Graphic file (type QTm)
-<use  "img/3stars.png" >
-File: img/personal.png Graphic file (type QTm)
- <use  "img/personal.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 133--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
-File: img/arch.png Graphic file (type QTm)
-<use  "img/arch.png" >
-File: img/devopsgraph.png Graphic file (type QTm)
- <use  "img/devopsgraph.png" >
-Overfull \hbox (14.8493pt too wide) in paragraph at lines 189--197
-[] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 199--201
-
- []
-
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
  (./devops.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 209.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 209.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 187.
 Package logreq Info: Writing requests to 'devops.run.xml'.
 \openout1 = `devops.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44943 strings out of 493706
- 869518 string characters out of 6148913
- 1252973 words of memory out of 5000000
- 47738 multiletter control sequences out of 15000+600000
+ 44917 strings out of 493706
+ 868398 string characters out of 6148913
+ 1252975 words of memory out of 5000000
+ 47716 multiletter control sequences out of 15000+600000
  5074 words of font info for 62 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  73i,9n,77p,10445b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on devops.pdf (3 pages).
+Output written on devops.pdf (2 pages).
