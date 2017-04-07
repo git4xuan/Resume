@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/W32TeX) (preloaded format=xelatex 2016.5.29)  6 APR 2017 09:46
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/W32TeX) (preloaded format=xelatex 2016.5.29)  7 APR 2017 12:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1968,24 +1968,24 @@ File: img/2stars.png Graphic file (type QTm)
 <use  "img/2stars.png" >
 File: img/2stars.png Graphic file (type QTm)
  <use  "img/2stars.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 86--125
+Underfull \hbox (badness 10000) in paragraph at lines 86--124
 
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 133--143
+Underfull \hbox (badness 10000) in paragraph at lines 132--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
